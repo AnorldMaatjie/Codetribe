@@ -6,25 +6,11 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import { YearPage } from '../pages/year/year';
-import { ChoosePage } from '../pages/choose/choose';
-import { CapitalPage } from '../pages/capital/capital';
-import { ColorPage } from '../pages/color/color';
-import { PartiesPage } from '../pages/parties/parties';
-import { LeaderPage } from '../pages/leader/leader';
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage,
-    ChoosePage,
-    YearPage,
-    CapitalPage,
-    ColorPage,
-    PartiesPage,
-    LeaderPage
-
-
+    HomePage
   ],
   imports: [
     BrowserModule,
@@ -33,13 +19,7 @@ import { LeaderPage } from '../pages/leader/leader';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage,
-    ChoosePage,
-    YearPage,
-    CapitalPage,
-    ColorPage,
-    PartiesPage,
-    LeaderPage
+    HomePage
   ],
   providers: [
     StatusBar,
